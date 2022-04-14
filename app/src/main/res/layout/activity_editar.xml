@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditarActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/TilModificar"
+        android:textSize="20dp"
+        android:layout_marginVertical="5dp"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="50dp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hint_nombre"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="15dp"/>
+    <EditText
+        android:id="@+id/TxtNombre"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textAlignment="textStart"
+        android:textColor="@android:color/black"
+        android:inputType="textPersonName"
+        android:layout_marginTop="5dp"
+        android:textSize="15dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hint_apellido"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="15dp"/>
+    <EditText
+        android:id="@+id/TxtApellido"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="textPersonName"
+        android:layout_marginTop="5dp"
+        android:textColor="@android:color/black"
+        android:textSize="15dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hint_correo_electronico"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="15dp"/>
+    <EditText
+        android:id="@+id/TxtCor"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:inputType="textEmailAddress"
+        android:textColor="@android:color/black"
+        android:textSize="15dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hint_telefono"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="15dp"/>
+    <EditText
+        android:id="@+id/TxtCel"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:inputType="phone"
+        android:textColor="@android:color/black"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hint_edad"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="15dp"/>
+    <EditText
+        android:id="@+id/TxtEdad"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:inputType="number"
+        android:textColor="@android:color/black"
+        android:textSize="15dp"/>
+
+    <Button
+        android:id="@+id/btnModificar"
+        android:layout_width="181dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="108dp"
+        android:background="#3F51B5"
+        android:text="@string/btn_Editar"/>
+
+    <Button
+        android:id="@+id/btnAtras"
+        android:layout_width="181dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="108dp"
+        android:text="@string/btn_salir"/>
+
+</LinearLayout>

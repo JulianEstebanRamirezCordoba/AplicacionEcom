@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NuevoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="15dp"
+            android:text="@string/menu_nuevo"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/txtNombre"
+            android:layout_width="344dp"
+            android:layout_marginStart="27dp"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:hint="@string/hint_nombre"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:labelFor="@+id/viewNombre"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/txtApellido"
+            android:layout_width="344dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_apellido"
+            android:layout_marginStart="27dp"
+            android:layout_marginVertical="10dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:labelFor="@+id/viewNombre"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/txtEdad"
+            android:layout_width="344dp"
+            android:hint="@string/hint_edad"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="27dp"
+            android:layout_marginVertical="10dp"
+            android:ems="10"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/txtTelefono"
+            android:layout_width="344dp"
+            android:hint="@string/hint_telefono"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="27dp"
+            android:layout_marginVertical="10dp"
+            android:ems="10"
+            android:inputType="phone"
+            android:labelFor="@+id/viewTelefono"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/txtCedula"
+            android:layout_width="344dp"
+            android:hint="@string/hint_cedula"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:layout_marginStart="27dp"
+            android:inputType="number"
+            android:labelFor="@+id/viewCedula"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/txtCorreoElectronico"
+            android:hint="@string/hint_correo_electronico"
+            android:layout_width="344dp"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:layout_marginStart="27dp"
+            android:ems="10"
+            android:inputType="textEmailAddress" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="35dp"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/btnGuarda"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="80dp"
+                android:layout_marginEnd="15dp"
+                android:text="@string/btn_guarda"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnSalir"
+                android:layout_width="102dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/btn_salir"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
